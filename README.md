@@ -3,8 +3,6 @@
 **Staking • Sports Betting • Roulette • Lottery • Slot Game**
 A modern crypto-powered gaming platform supporting multi-chain tokens and exciting on-chain games.
 
-![Platform Preview]()
-
 ---
 
 
@@ -127,13 +125,13 @@ npm start
 
 ## 🕹️ Games Included
 
-| Game               | Description                       | Preview                                                                                      |
-| ------------------ | --------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Staking**    | Classic multiplayer hand game     | <img width="1440" height="1434" alt="Staking" src="https://github.com/user-attachments/assets/2df47f19-1d25-442f-b64c-6afae22894e9" /> |
-| **Sports Betting**       | Bet before the graph crashes!     | <img width="1440" height="1024" alt="Sport betting" src="https://github.com/user-attachments/assets/0e11b8d1-8e6e-40dd-9221-3904ca941f9c" />    |
-| **Roulette**       | Find safe spots, avoid bombs!     | <img width="1440" height="1307" alt="Roulette" src="https://github.com/user-attachments/assets/c9248452-a199-4350-8e91-ce0d0394cd2f" />|
-| **Academy** | Race to win in a thrilling format | <img width="1440" height="1529" alt="Academy" src="https://github.com/user-attachments/assets/4ec843a1-226c-483f-8e93-d08902686bde" />|
-| **Slot**        | Spin the reels, win rewards!      | <img width="1440" height="1119" alt="Slots" src="https://github.com/user-attachments/assets/7f1ac307-387c-457c-a0f3-9fe089cb8df8" /> |
+| Game               | Preview                                                                                      |
+| ------------------ | -------------------------------------------------------------------------------------------- |
+| **Staking**    | <img width="1440" height="1434" alt="Staking" src="https://github.com/user-attachments/assets/2df47f19-1d25-442f-b64c-6afae22894e9" /> |
+| **Sports Betting**         | <img width="1440" height="1024" alt="Sport betting" src="https://github.com/user-attachments/assets/0e11b8d1-8e6e-40dd-9221-3904ca941f9c" />    |
+| **Roulette**       | <img width="1440" height="1307" alt="Roulette" src="https://github.com/user-attachments/assets/c9248452-a199-4350-8e91-ce0d0394cd2f" />|
+| **Academy**  | <img width="1440" height="1529" alt="Academy" src="https://github.com/user-attachments/assets/4ec843a1-226c-483f-8e93-d08902686bde" />|
+| **Slot**            | <img width="1440" height="1119" alt="Slots" src="https://github.com/user-attachments/assets/7f1ac307-387c-457c-a0f3-9fe089cb8df8" /> |
 
 ---
 
