@@ -1,4 +1,5 @@
 # 🎰 EverPlay - Web3 Unified Ecosystem 🎮
+<img width="1983" height="793" alt="ChatGPT Image Aug 4, 2026, 01_03_51 PM" src="https://github.com/user-attachments/assets/e9181a7b-602e-43ea-ad8c-181c1bbc39cf" />
 
 **Staking • Sports Betting • Roulette • Lottery • Slot Game**
 A modern crypto-powered gaming platform supporting multi-chain tokens and exciting on-chain games.
