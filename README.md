@@ -1,312 +1,141 @@
-#  🌐 EverPlay Blockchain Ecosystem
+# 🎰 Crypto Gamefi 🎮
 
+**Staking • Sports Betting • Roulette • Lottery • Slot Game**
+A modern crypto-powered gaming platform supporting multi-chain tokens and exciting on-chain games.
 
-# 🚀 Overview
-
-EverdreamSoft is a Web3 gaming innovation company focused on transforming online betting, poker, and competitive gaming through blockchain technology. We develop decentralized gaming platforms, smart contract infrastructure, and digital asset ecosystems that enable secure, transparent, and provably fair gaming experiences. By leveraging blockchain, digital ownership, and tokenized economies, we empower players to participate in trusted gaming environments where assets, rewards, and achievements are fully owned and controlled by users.
-
-Our solutions combine cutting-edge Web3 technologies with engaging gaming experiences, creating scalable platforms for poker, betting, tournaments, and player-driven economies. Through decentralized infrastructure, transparent game mechanics, and secure digital transactions, EverdreamSoft is helping shape the future of online gaming by fostering fairness, player ownership, and sustainable community growth within the next generation of blockchain-powered entertainment ecosystems.
+![Platform Preview]()
 
 ---
 
-# ✨ Features
+## 🕹️ Games Included
 
-- 🌌 Open World Metaverse
-- 🎮 Multiplayer Gameplay
-- 🔗 Solana Wallet Integration
-- 🪙 NFT Asset Ownership
-- 🛒 NFT Marketplace
-- ⚡ Real-Time Multiplayer Sync
-- 💬 Live Chat & Social Features
-- 🏆 Global Leaderboards
-- 📊 Player Statistics
-- 🤖 AI-Powered Systems
-- 🎨 Modern Responsive UI
-- ☁️ Cloud-Ready Infrastructure
-- 🐳 Docker Deployment Support
+| Game               | Description                       | Preview                                                                                      |
+| ------------------ | --------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Staking**    | Classic multiplayer hand game     | ![Scissors]() |
+| **Sports Betting**       | Bet before the graph crashes!     | ![Crash]()    |
+| **Roulette**       | Find safe spots, avoid bombs!     | ![Mines]()    |
+| **Lottery** | Race to win in a thrilling format | ![Turtle]()   |
+| **Slot**        | Spin the reels, win rewards!      | ![Slot]()     |
 
 ---
 
-# 🧠 Tech Stack
+## 💰 Supported Cryptocurrencies
 
-## Frontend
-- React 19
-- Next.js 16
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-- Three.js
-- Babylon.js
-
-## Backend
-- Node.js
-- Express.js
-- Socket.IO
-- TypeScript
-
-## Blockchain
-- Polygon
-- Web3.js
-- Wallet Adapter
-
-## Database
-- MongoDB
-- Redis
-
-## DevOps
-- Docker
-- AWS
-- Vercel
-- GitHub Actions
+* ₿ Bitcoin (BTC)
+* Ξ Ethereum (ETH)
+* $ Abstract
+* 🟡 Binance Smart Chain (BSC)
+* 🔷 Solana (SOL)
+* 💵 USDT (All major chains)
 
 ---
 
-# 📁 Project Structure
+## 🏗️ Project Structure
 
-```text
-├───.vscode
-├───client
-│   ├───public
-│   └───src
-│       ├───apis
-│       ├───assets
-│       │   ├───fonts
-│       │   ├───game
-│       │   │   ├───cards
-│       │   │   └───cards-svg
-│       │   ├───icons
-│       │   └───img
-│       ├───components
-│       │   ├───buttons
-│       │   ├───cookies
-│       │   ├───decoration
-│       │   ├───forms
-│       │   ├───game
-│       │   │   ├───Betslider
-│       │   │   ├───BrandingImage
-│       │   │   └───Seat
-│       │   ├───icons
-│       │   ├───layout
-│       │   ├───loading
-│       │   ├───logo
-│       │   ├───modals
-│       │   ├───navigation
-│       │   ├───routing
-│       │   ├───typography
-│       │   └───user
-│       ├───context
-│       │   ├───game
-│       │   ├───global
-│       │   ├───localization
-│       │   ├───modal
-│       │   └───websocket
-│       ├───game
-│       ├───helpers
-│       ├───hooks
-│       ├───pages
-│       │   └───ConnectWallet
-│       ├───styles
-│       └───utils
-├───config
-├───controllers
-├───game
-├───middleware
-├───models
-├───routes
-│   └───api
-├───socket
-└───utils
-```
+### Frontend (Port: `3000`)
+
+* Game UI and wallet interactions
+* Real-time Socket.IO updates
+* User account dashboard
+
+### Admin Panel (Port: `5000`)
+
+* Game & user management
+* Live transaction monitoring
+* Platform analytics
+
+### Backend (Microservices)
+
+| Service                    | Port |
+| -------------------------- | ---- |
+| Main Server                | 5000 |
+| Admin Service              | 6100 |
+| Scissors Game              | 5200 |
+| Chatroom Service           | 4900 |
+| Management Service         | 4000 |
+| ... and more game services |      |
 
 ---
 
-# 🛠️ Prerequisites
+## 🚀 Getting Started
 
-Before starting, install the following:
+### ✅ Prerequisites
 
-- Node.js v20+
-- npm or yarn
-- Git
-- MongoDB
-- Polygon
-- MataMask Wallet
+* Node.js `v22.x` (Backend)
+* Node.js `v22.x` (Frontend & Admin)
+* Web crypto wallet (MetaMask, TrustWallet, etc.)
 
----
-
-# ▶️ Run Development Servers
-
-## Start Backend
+### 🧠 Backend Setup
 
 ```bash
-cd server
-npm run dev
+npm install
+
+# Start services
+npm start              # Main server
 ```
 
----
-
-## Start Frontend
+### 🎨 Frontend Setup
 
 ```bash
 cd client
-npm run dev
+npm install
+npm start
 ```
 
----
-
-# 🌐 Access Application
-
-Frontend:
-
-```bash
-http://localhost:3000
-```
-
-Backend API:
-
-```bash
-http://localhost:7777
-```
 
 ---
 
-# 🔗 Wallet Integration
+## 🛡️ Security Highlights
 
-EverdreamSoft supports:
-
-- MetaMask Wallet
-- Coinbase Wallet
-
-Players can securely:
-
-- Sign transactions
-- Own NFTs
-- Trade digital assets
-- Join multiplayer gameplay
+* 🔐 JWT-based auth
+* 🧪 Two-Factor Authentication (2FA)
+* 🔗 Secure wallet integration
+* 🛑 DDoS Protection
+* ⚡ Rate Limiting
 
 ---
 
-# 🏗️ System Architecture
+## 🧱 Tech Stack
 
-```text
-+----------------------+
-|      Frontend        |
-| React / Next.js      |
-| Three.js / Babylon   |
-+----------+-----------+
-           |
-           v
-+----------------------+
-|      Backend API     |
-| Node.js / Express    |
-| Socket.IO            |
-+----------+-----------+
-           |
-           v
-+----------------------+
-|      Blockchain      |
-| Solana / Web3.js     |
-| Smart Contracts      |
-+----------+-----------+
-           |
-           v
-+----------------------+
-|      Database        |
-| MongoDB / Redis      |
-+----------------------+
-```
+* **Backend**: Node.js + Express.js
+* **Frontend**: React.js
+* **Database**: MongoDB
+* **Real-Time**: Socket.IO
+* **Blockchain**: Web3.js, Ethers.js, TronWeb
+* **Payments**: Tatum API
 
 ---
 
-# 🔐 Security
+## 🌉 Blockchain & API Integration
 
-EverdreamSoft follows modern Web3 security practices:
-
-- Wallet-based authentication
-- Encrypted sessions
-- Protected APIs
-- Smart contract verification
-- Rate limiting
-- Infrastructure security
+* Multi-chain Web3 Providers
+* Native node access
+* Tatum for wallet & transaction processing
 
 ---
 
-# 🗺️ Roadmap
+## 📦 Key Features
 
-- [x] Core Architecture
-- [x] Wallet Integration
-- [x] Multiplayer Support
-- [x] NFT Integration
-- [ ] NFT Marketplace
-- [ ] AI NPC Systems
-- [ ] DAO Governance
-- [ ] Mobile Application
-- [ ] VR Integration
-- [ ] Token Staking
+* 🔁 Real-time multiplayer gameplay
+* 👛 Multi-currency wallet support
+* 🗨️ Live chat
+* 📊 Game and transaction history
+* 🧾 Admin dashboard & analytics
+* ⚡ Instant crypto payouts
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
-Contributions are welcome.
-
-## Steps
-
-1. Fork repository
-2. Create feature branch
-
-```bash
-git checkout -b feature/amazing-feature
-```
-
-3. Commit changes
-
-```bash
-git commit -m "Add amazing feature"
-```
-
-4. Push branch
-
-```bash
-git push origin feature/amazing-feature
-```
-
-5. Open Pull Request
+1. Fork the repo 🍴
+2. Create your feature branch 🌱
+3. Commit changes 💾
+4. Push the branch 🚀
+5. Open a Pull Request ✅
 
 ---
 
-# 📄 License
+## 📄 License
 
-MIT License
-
----
-
-# 👨‍💻 Developer
-
-Built with passion by the EverdreamSoft Team.
-
----
-
-# 🙏 Acknowledgements
-
-- Polygon
-- React
-- Next.js
-- Three.js
-- Babylon.js
-- MongoDB
-- Tailwind CSS
-- Open Source Community
-
----
-
-# ⚖️ Disclaimer
-
-This project is provided for educational and development purposes only.
-
-Users are responsible for compliance with local blockchain and digital asset regulations.
-
----
-
-<p align="center">
-  🌌 Built for the Future of Web3 Gaming 🚀
-</p>
+This project is licensed under the **ISC License**.
+Feel free to build and contribute — responsibly and legally!
