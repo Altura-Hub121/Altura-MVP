@@ -1,5 +1,7 @@
-# 🎰 EverPlay - Web3 Unified Ecosystem 🎮
-<img width="1983" height="793" alt="ChatGPT Image Aug 4, 2026, 01_03_51 PM" src="https://github.com/user-attachments/assets/e9181a7b-602e-43ea-ad8c-181c1bbc39cf" />
+# 🎰 Altura - Multi-chain gaming platform 🎮
+<img width="1254" height="1254" alt="ChatGPT Image Aug 26, 2026, 11_49_18 AM" src="https://github.com/user-attachments/assets/40c2c6ea-97a4-4bdc-b234-14f3b7fa42e7" />
+
+# Altura is a multi-chain gaming platform designed to combine the best of Web3, AI, and blockchain technologies to create a fair, rewarding, and engaging ecosystem for gamers worldwide. Altura integrates AI-driven game mechanics with Play-to-Earn (P2E) systems, NFT avatars, and a decentralized token economy that rewards players for their skills and achievements.
 
 **Staking • Sports Betting • Roulette • Lottery • Slot Game**
 A modern crypto-powered gaming platform supporting multi-chain tokens and exciting on-chain games.
